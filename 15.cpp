@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <cstdio>
 #include <vector>
 #include <stack>
@@ -46,4 +46,4 @@ int main()
 		cout << str[i];
 	}
 	return 0;
-}*/
+}

@@ -1,4 +1,4 @@
-/*
+
 #include <iostream>
 #include <algorithm>
 #include <cstdio>
@@ -55,4 +55,4 @@ int main()
 		cout << min;
 	}
 	return 0;
-}*/
+}

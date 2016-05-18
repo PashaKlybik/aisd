@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <algorithm>
 #include <cstdio>
 #include <vector>
@@ -41,4 +41,4 @@ int main()
 	}
 
 	return		0;
-}*/
+}

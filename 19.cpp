@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <algorithm>
 #include <cstdio>
 #include <vector>
@@ -58,4 +58,4 @@ int main()
 		cout << "NO";
 
 	return 0;
-}*/
+}

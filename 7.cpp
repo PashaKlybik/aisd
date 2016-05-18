@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <algorithm>
 #include <cstdio>
 #include <vector>
@@ -48,4 +48,4 @@ int main()
 	}
 	cout << cns-1;
 	return 0;
-}*/
+}

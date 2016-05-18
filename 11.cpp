@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <cstdio>
 #include <vector>
 #include <stack>
@@ -71,4 +71,4 @@ int main()
 	cout << comp;
 	
 	return	0;
-}*/
+}
