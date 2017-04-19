@@ -13,7 +13,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 #define ll long long
 #define cmax 10000000000000
 
@@ -29,7 +28,7 @@ bool v_visit[k];
 void deikstry() {
 	int point = 0, size;
 	ll min;
-	for (int c = 0; c < n; c++) {		
+	for (int c = 0; c < n; c++) {
 		min = cmax;
 		for (int i = 0; i < n; i++) {
 			if (!v_visit[i] && v_count[i] < min) {
@@ -39,7 +38,7 @@ void deikstry() {
 		}
 		v_visit[point] = true;
 		size = v[point].size();
-		
+
 		for (int i = 0; i < size; i++) {
 			if (v_count[v[point][i].first] > (v_count[point] + v[point][i].second)) {
 				v_count[v[point][i].first] = v_count[point] + v[point][i].second;
@@ -74,7 +73,7 @@ int main()
 	v_count[start] = 0;
 	deikstry();
 	cout << v_count[end];
-	
-	
+
+
 	return 0;
 }
