@@ -13,6 +13,6 @@ int main() {
       cin >> t;
       v.push_back(t);
     }
-    cout << "test we in master branch";
+    cout << "test on branch new_test";
     return 0;
 }
